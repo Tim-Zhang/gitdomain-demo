@@ -1,17 +1,17 @@
-#A DnsGit Demo for DnsGit
+#A Demo for GitDNS
 
 ```
-    ____     _   __   _____    ______   ____   ______
-   / __ \   / | / /  / ___/   / ____/  /  _/  /_  __/
-  / / / /  /  |/ /   \__ \   / / __    / /     / /   
- / /_/ /  / /|  /   ___/ /  / /_/ /  _/ /     / /    
-/_____/  /_/ |_/   /____/   \____/  /___/    /_/       
+   ____________________  _   _______
+  / ____/  _/_  __/ __ \/ | / / ___/
+ / / __ / /  / / / / / /  |/ /\__ \
+/ /_/ // /  / / / /_/ / /|  /___/ /
+\____/___/ /_/ /_____/_/ |_//____/
 ```
 
-#What is DnsGit
-[DnsGit](https://dnsgit.com) is an awesome DNS manange service.
+#What is GitDNS
+[GitDNS](https://gitdns.cc) is an awesome DNS manange service.
 
-    Git(Manage) ➩ DnsGit(middle ware)  ➩ DNSPod(resolve)
+    Git(Manage) ➩ GitDNS(middle ware)  ➩ DNSPod(resolve)
 
 
 #Concept & Syntax
@@ -19,7 +19,7 @@
 ## Domain-File
 file named by domain name.
 
-##Record-Line 
+##Record-Line
 one record mapping one line in domain file.
 
 Syntax:
@@ -37,7 +37,7 @@ type(name, value, ttl, mx)
 Example:
 ```
 A(@, 1.1.1.1, 默认, 600)
-CNAME(dnsgit, dnsgit.com, 默认, 600)
+CNAME(gitdns, gitdns.cc, 默认, 600)
 MX(@, mxdomain.qq.com., 默认, 600, 10)
 
 ```

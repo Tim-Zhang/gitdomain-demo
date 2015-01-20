@@ -1,5 +1,5 @@
 A(yes, 1.1.1.1, 默认, 600)
-CNAME(sweet, dnsgit.com, 默认, 600)
+CNAME(sweet, gitdns.cc, 默认, 600)
 CNAME(baby, jiecao.pw, 默认, 600)
 MX(@, mxdomain.qq.com., 默认, 600, 10)
 
